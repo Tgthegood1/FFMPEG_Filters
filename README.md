@@ -1,4 +1,4 @@
-# FFMPEG_Filters
+## FFMPEG_Filters
 
 A simple Python library to generate videos with smooth motion effects (Zoom, Scroll, etc.) from a single image using FFMPEG.
 
@@ -14,7 +14,6 @@ pip install FFMPEG-Filters
 ## Usage
 ```
 from FFMPEG_Filters.Image import options
-
 video = options()
 
 # Set the export parameters
@@ -33,9 +32,10 @@ video.scrollTop()
 
 # Generate the video
 video.makeVideo()
+
 ```
 
-# Available Filters
+## Available Filters
 You can apply any combination of these filters:
 zoomIn()
 zoomOut()
@@ -45,9 +45,9 @@ scrollBottom()
 Do not apply contradictory filters (e.g. zoomIn() and zoomOut() together).
 
 
-# Requirements
+## Requirements
 Python 3.7+
 FFMPEG must be installed and available in your PATH.
 
-# License
+## License
 MIT License
