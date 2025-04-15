@@ -6,9 +6,9 @@ A simple Python library to generate videos with smooth motion effects (Zoom, Scr
 
 Install the package directly from PyPI:
 
-```bash
+```
 pip install FFMPEG-Filters
-
+```
 
 
 ## Usage
@@ -16,7 +16,7 @@ pip install FFMPEG-Filters
 from FFMPEG_Filters.Image import options
 video = options()
 
-# Set the export parameters
+Set the export parameters
 video.setExportParameters(
     imagePath=r"C:\Users\Tgthegood\Pictures\Overlord\Tg_0.jpg",      # Input image
     pathExport=r"C:\Users\Tgthegood\Documents\Novels\Example.mp4",   # Output video path
